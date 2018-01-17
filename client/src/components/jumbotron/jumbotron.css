@@ -1,0 +1,36 @@
+#myCarousel {
+    width:100%;
+}
+
+.carousel-inner {
+    margin-left: auto;
+    margin-right: auto;  
+    max-height:450px;
+}
+
+.jumbotronContainer {
+    background-color:#5F626B;
+}
+
+.carousel-inner img {
+    margin: auto;
+  }
+
+.carousel-indicators {
+    margin-bottom:0px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+    .jumbotronContainer {
+        margin-top:16%;
+        width:100%;
+        height:100%;
+    }
+
+    .jumbotronContainer {
+         margin-top: 0%;
+         width: 100%;
+         height: 100%;
+    }
+
+}

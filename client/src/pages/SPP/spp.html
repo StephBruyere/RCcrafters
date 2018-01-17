@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rc Crafters</title>
+    <style type="text/css">
+    .box {
+        border: solid black 1px;
+        margin-top: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        color: color: rgb(35, 47, 62);
+        ;
+    }
+
+    .name {
+        margin-left: 5%;
+    }
+
+    .img {
+        float: left;
+        width: 25%;
+        height: 400px;
+        border: solid black 1px;
+        margin-left: 5%;
+    }
+
+    .body-box {
+        border: solid black 1px;
+        margin-left: 35%;
+        margin-right: 5%;
+        color: black;
+        background-color: rgb(225, 224, 222);
+    }
+
+    .price {
+        margin-left: 5%;
+        font-size: 30px;
+        color: rgb(35, 47, 62);
+    }
+
+    .dropdown {
+        margin-left: 5%;
+        font-size: 30px;
+    }
+
+    .quantity {
+        margin-left: 5%;
+        float: left;
+        font-size: 30px;
+    }
+
+    .cartButton {
+        margin-left: 20%;
+        background-color: rgb(35, 47, 62);
+        text-align: center;
+        color: white;
+        padding-top: ;
+        padding-bottom: 1%;
+        padding-left: 4%;
+        padding-right: 4%;
+        width: 40%;
+        margin-bottom: 1%;
+        font-size: 30px;
+    }
+
+    .cartimg {
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+
+    .specBox {
+        margin-top: 5%;
+        border: solid grey 1px;
+        text-align: center;
+        margin-bottom: 15%
+    }
+
+    .reviewBox {
+        background-color: rgb(35, 47, 62);
+        font-size: 30px;
+    }
+
+    .reviewButton {
+        font-size: 30px;
+        background-color: rgb(35, 47, 62);
+        border: none;
+        color: rgb(225, 224, 222);
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+    .specs {
+    	margin-left: 1%;
+    	font-size: 25px;
+    	margin-bottom: 15%;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="name">
+            <h1><span id="productName"></span>1 10F-86 Nose Gear</h1>
+        </div>
+        <div class="img">
+            <img src="#" /><span id="productImage">Image Here</span>
+        </div>
+        <div class="body-box">
+            <div class="background-price">
+                <div class="price">
+                    <h1><span id="price">$</span>000.00</h1>
+                </div>
+            </div>
+            <hr />
+            <div class="dropdown">
+                <!--dropdown options here-->
+                <label for="options">Options</label>
+                <br>
+                <select name="options" id="options">
+                </select>
+            </div>
+            <hr />
+            <div>
+                <div class="quantity">
+                    <label>QTY:</label>
+                    <form>
+                        <input width="20" type="number" name="quantity" />
+                    </form>
+                </div>
+                
+                <div class="cartButtonDiv">
+                    <a href="#">
+                        <button class="cartButton"><img class="cartimg" height="35" src="../../../public/assets/imgs/cart1.png" />Add to cart</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="specBox">
+            <br />
+            <div class="reviewBox">
+                <a href="#">
+                    <button class="reviewButton">Review a Product</button>
+                </a>
+            </div>
+            <div class="specs">
+                <span id="specs">Specs Here</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

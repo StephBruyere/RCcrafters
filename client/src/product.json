@@ -1,0 +1,109 @@
+[
+  {
+    "id": 0,
+    "ProductID":"F9FZ6All",
+    "name": "1/6th Scale Ziroli F-9F Panther Strut Set",
+    "price": "$450.00",
+    "image":"assets/images/Jets/16ZiroliF-9F.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 1,
+    "ProductID":"F9FP6All",
+    "name": "1/6th Scale Palmer F-9F Cougar Strut Set",
+    "price": "$495.00",
+    "image":"assets/images/Jets/16PalmerF-9F.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 2,
+    "ProductID":"F9FJHH9All",
+    "name": "1/9th Scale JHH F-9F Panther/Cougar Strut Set",
+    "price": "$350.00",
+    "image":"assets/images/Jets/19JHHF-9F.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 3,
+    "ProductID":"F18Y10All",
+    "name": "1/10th Scale Yellow F-18 Thorpe Strut Set",
+    "price": "$550.00",
+    "image":"assets/images/Jets/110F-18.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 4,
+    "ProductID":"F18Y10All",
+    "name": "1/10th Scale Yellow F-18 Thorpe Strut Set",
+    "price": "$550.00",
+    "image":"assets/images/Jets/110F-18.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 5,
+    "ProductID":"F18B8All",
+    "name": "1/8th Scale Byron F-18 Strut Set",
+    "price": "$650.00",
+    "image":"assets/images/Jets/18ByronF-18.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 6,
+    "ProductID":"F18Y7All",
+    "name": "1/7th Scale Yellow F-18 Strut Set",
+    "price": "$850.00",
+    "image":"assets/images/Jets/17YellowF-18.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 7,
+    "ProductID":"F4JHHY10All",
+    "name": "1/10th Scale Jet Hangar Hobbies/Yellow F-4 Phantom Strut Set",
+    "price": "$575.00",
+    "image":"assets/images/Jets/110JHHF-4.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 8,
+    "ProductID":"F4JMP8All",
+    "name": "1/8th Scale Jet Model Products F-4 Phantom II Strut Set",
+    "price": "$750.00",
+    "image":"assets/images/Jets/18JMPF-4.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 9,
+    "ProductID":"A7JHH10All",
+    "name": "1/10th Scale Jet Hangar Hobbies A-7 Strut/Retract System",
+    "price": "$750.00",
+    "image":"assets/images/Jets/110JHHA-7.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 10,
+    "ProductID":"F86JHH10All",
+    "name": "1/10th Scale Jet Hangar Hobbies F-86 Strut Set",
+    "price": "$450.00",
+    "image":"assets/images/Jets/1_10JHHF-86.jpg",
+    "type":"Jet"
+  }
+
+/*
+
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('ER3Z6All','1/6th Scale Ziroli Ercoup-3 gear set and wing mount blocks',550.00,'assets/images/NonJets/16ZiroliErcoupe/','1/6 Ziroli Ercoupe-3 Strut and Wing Blk Set','NonJet');
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('MIRJHH10All','1/10th Scale Jet Hangar Hobbies Mirage gear strut set',495.00,'assets/images/Jets/110JHHMirage/','1/10 JHH Mirage Strut Set','Jet');
+  insert into ProductOptions (`OptionID`,`ProductID`,`Description`,`Price`) VALUES ('MIRJHH10AllOpt1','MIRJHH10All','Detail kit',55.00);
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('MIRJHH10NOSE','1/10th Scale Jet Hangar Hobbies Mirage Nose Strut',150.00,'assets/images/Jets/110JHHMirageNose/','1/10 JHH Mirage Nose Strut','Jet');
+  insert into ProductOptions (`OptionID`,`ProductID`,`Description`,`Price`) VALUES ('MIRJHH10NOSEOpt1','MIRJHH10NOSE','Detail kit',45.00);
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('A78All','1/8th Scale A-7 Nose Strut and Main gear system',1200.00,'assets/images/Jets/18A-7/','1/8 A-7 Strut Set','Jet');
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('T45TENGAll','Jet Teng T-45 Strut Set',550.00,'assets/images/Jets/T45JetTeng/','Jet Teng T-45 Strut Set','Jet');
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('A20PALAll','Palmer A-20 Havoc Strut Set',495.00,'assets/images/NonJets/A20Havoc/','Palmer A-20 Havoc Strut Set','NonJet');
+  insert into ProductOptions (`OptionID`,`ProductID`,`Description`,`Price`) VALUES ('A20PALAllOpt1','A20PALAll','Century jet nose retract JMP main retracts and adapters',300.00);
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('BOB6ALL','Cessna Bobcat 1/6 scale K-Flight Struts',375.00,'assets/images/NonJets/16CessnaBobcat/','1/6 Cessna Bobcat K-Flight Struts','NonJet');
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('OV10AALL','OV-10A Bronco Struts Palmer plans complete bolt into model',1595.00,'assets/images/NonJets/1_6Bronco/','OV-10A Bronco Palmer Complete bolt-in','NonJet');
+  insert into ProductOptions (`OptionID`,`ProductID`,`Description`,`Price`) VALUES ('OV10AALLOpt1','OV10AALL','retracts/mounts/wheels',00.00);
+  insert into Product (`ProductID`,`Description`,`Price`,`PicPath`,`ButtonText`,`Type`) VALUES ('FJ48ALL','FJ-4 Fury 1/8th scale strut and retract set(complete bolt-in model)',1395.00,'assets/images/Jets/18FJ-4Fury/','1/8 FJ-4 Strut/Retract Set','Jet');
+  Use `RcCrafters`;
+  */
+
+  ]

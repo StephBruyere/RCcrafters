@@ -1,0 +1,18 @@
+button {
+    border:none !important;
+    background-color:transparent;
+}
+
+button:active {
+    border:none !important;
+    background-color:transparent !important;
+}
+
+button:focus {outline:0;}
+
+.close-btn {
+    background-color: #59699C;
+    color:white;
+}
+
+

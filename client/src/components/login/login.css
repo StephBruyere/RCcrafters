@@ -1,0 +1,167 @@
+.login {
+background-color: white;
+width:50%;
+font-family: 'Roboto', sans-serif !important;
+font-weight: bold;
+color: #232F3E !important;
+width:100%;
+}
+
+.button.formLogin {
+    background-color: transparent !important;
+}
+
+a {
+    color: #232F3E;  
+    padding:0px;
+}
+
+.register2 {
+    margin-top:.5%;
+    margin-bottom:5%;
+    width:100%;
+    text-align: left;
+}
+
+button.formLogin {
+    margin-top:13px;
+}
+
+.regInput2 {
+    text-align:left;
+    color: #59699C;
+    font-weight: bold;
+}
+
+.form {
+    padding:15px;
+    font-family: 'Roboto', sans-serif !important;
+    background-color:#E1E0DE;
+}
+
+
+.navbar-nav>li>a {
+    color: #232F3E;  
+    padding-top:14px;
+}
+
+.cartIcon {
+    padding-right:5%;
+    width: 40%;
+}
+
+.paypal {
+    width:65px;
+    margin-top:-7px;
+    padding:0px;
+}
+
+.login {
+    margin-right:-15%;
+}
+
+.dropdown-menu {
+    padding:0px;
+    border: 0px;
+}
+
+.username {
+    margin-top:5%;
+    margin-bottom:10px;
+}
+
+#btnLogin {
+    margin-top:10%;
+    background-color: #59699C; 
+    color:white;  
+}
+
+#navbar2 {
+    margin-right:-7%;
+}
+.navbar-text {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  #menuLogin {
+    margin-top: 2.15px !important;
+}
+
+.register-color {
+    color:#59699C;
+}
+
+.login-register-desc {
+    text-align: left;
+    margin-top:-15px;
+}
+
+.modal-footer {
+    margin-top:0;
+}
+@media screen and (max-width: 768px) and (min-width: 641px){
+
+    #navbar2 {
+        margin-right:0px !important;
+        margin-top:5px;
+    }
+    .cartIcon {
+        display: none;
+    }
+
+    .paypal {
+        display: none;
+    }
+    .login {
+        text-align: right;
+        display: inline;
+    }
+
+    .btn {
+        background-color: #59699C; 
+        color:white;  
+    }
+
+    .loginBtn {  
+        margin-right:45px;
+    }
+
+    #menuLogin {
+        width:100%;
+        margin-left: 7px;
+        margin-top:16px;
+        padding-top:15px !important;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        padding:5%;
+        border: 0px;
+    }
+
+   element.style {
+        margin-top:100px;
+    }
+
+    .username {
+        margin-right:5%;
+    }
+
+    #btnLogin {
+        width:75%;
+        margin-top:0%;
+    }
+   
+
+}
+
+@media screen and (max-width: 980px) and (min-width: 769px) {     
+}
+
+
+
+@media screen and (min-width: 981px) {
+}
+
+   

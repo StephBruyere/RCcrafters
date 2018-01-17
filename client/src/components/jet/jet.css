@@ -1,0 +1,49 @@
+.card {
+  font-size:.95em; 
+  background: #fff;
+  margin:2%;
+  padding:2%;
+  width:100%;
+  height:100%;
+  box-shadow: 0 3px 6px #999, 0 1px 1px #999;
+}
+.navbar-default {
+  z-index: 1;
+  background-color: #232F3E;
+  border-width: 0px;
+}
+
+.fcards {
+  padding:5%;
+  font-size:.85em;
+}
+
+.image-container {
+  text-align: left;
+
+}
+
+.btn-cart {
+  width: 25%;
+  padding:1%;
+  float: right;
+  background-color: #59699C !important;
+  color: white;
+  text-align: center;
+  border-radius:3px;
+  margin-bottom:5%;
+}
+
+.card > .remove {
+  color: #ff1744;
+  font-size: 48px;
+  position: relative;
+  cursor: pointer;
+}
+.card > .remove:hover {
+  color: #d50000;
+}
+
+.fcards {
+  height:100%;
+}

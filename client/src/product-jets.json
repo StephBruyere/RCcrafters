@@ -1,0 +1,132 @@
+[
+  {
+    "id": 0,
+    "ProductID":"F9FZ6All",
+    "name": "1/6th Scale Ziroli F-9F Panther Strut Set",
+    "price": "$450.00",
+    "image":"assets/images/Jets/16ZiroliF9-F/16ZiroliF9-F3.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 1,
+    "ProductID":"F9FP6All",
+    "name": "1/6th Scale Palmer F-9F Cougar Strut Set",
+    "price": "$495.00",
+    "image":"assets/images/Jets/16PalmerF-9F/16PalmerF-9F1.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 2,
+    "ProductID":"F9FJHH9All",
+    "name": "1/9th Scale JHH F-9F Panther/Cougar Strut Set",
+    "price": "$350.00",
+    "image":"assets/images/Jets/19JHHF-9F/19JHHF-9F1.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 3,
+    "ProductID":"F18Y10All",
+    "name": "1/10th Scale Yellow F-18 Thorpe Strut Set",
+    "price": "$550.00",
+    "image":"assets/images/Jets/110F-18/110F-181.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 4,
+    "ProductID":"F18Y10All",
+    "name": "1/10th Scale Yellow F-18 Thorpe Strut Set",
+    "price": "$550.00",
+    "image":"assets/images/Jets/17YellowF-18/17YellowF-181.jpg",
+    "type":"Jet"
+  },
+  
+  {
+    "id": 5,
+    "ProductID":"F18Y7All",
+    "name": "1/7th Scale Yellow F-18 Strut Set",
+    "price": "$850.00",
+    "image":"assets/images/Jets/17YellowF-18/17YellowF-182.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 6,
+    "ProductID":"T45TENGAll",
+    "name": "Jet Teng T-45 Strut Set",
+    "price": "$550.00",
+    "image":"assets/images/Jets/T45JetTeng/T45JetTeng1.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 7,
+    "ProductID":"F4JMP8All",
+    "name": "1/8th Scale Jet Model Products F-4 Phantom II Strut Set",
+    "price": "$750.00",
+    "image":"assets/images/Jets/18JMPF-4/18JMPF41.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 8,
+    "ProductID":"A7JHH10All",
+    "name": "1/10th Scale Jet Hangar Hobbies A-7 Strut/Retract System",
+    "price": "$750.00",
+    "image":"assets/images/Jets/110JHHA-7/110JHHA-71.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 9,
+    "ProductID":"A78All",
+    "name": "1/8th Scale A-7 Nose Strut and Main gear system",
+    "price": "$1200.00",
+    "image":"assets/images/Jets/18A-7/18A-74.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 10,
+    "ProductID":"MIRJHH10Al",
+    "name": "1/10th Scale Jet Hangar Hobbies Mirage gear strut set",
+    "price": "$495.00",
+    "image":"assets/images/Jets/110JHHMirage/110JHHMirage1.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 11,
+    "ProductID":"MIRJHH10NOSE",
+    "name": "1/10th Scale Jet Hangar Hobbies Mirage Nose Strut",
+    "price": "$150.00",
+    "image":"assets/images/Jets/110JHHMirageNose/110JHHMirageNose1.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 12,
+    "ProductID":"F86JHH10All",
+    "name": "1/10th Scale Jet Hangar Hobbies F-86 Strut Set",
+    "price": "$450.00",
+    "image":"assets/images/Jets/110JHHF-86/110JHHF-861.jpg",
+    "type":"Jet"
+  },
+  {
+    "id": 13,
+    "ProductID":"F4JHHY10All",
+    "name": "1/10th Scale Jet Hangar Hobbies/Yellow F-4 Phantom Strut Set",
+    "price": "$575.00",
+    "image":"assets/images/Jets/110JHHF-4/110JHHF-41.jpg",
+    "type":"Jet"
+  },
+  {
+  "id": 14,
+  "ProductID":"FJ48ALL",
+  "name": "FJ-4 Fury 1/8th scale strut and retract set (complete bolt-in model)",
+  "price": "$1395.00",
+  "image":"assets/images/Jets/18FJ-4Fury/18FJ-4Fury1.jpg",
+  "type":"Jet"
+},
+  {
+  "id": 14,
+  "ProductID":"FJ48ALL",
+  "name": "FJ-4 Fury 1/8th scale strut and retract set (complete bolt-in model)",
+  "price": "$1395.00",
+  "image":"assets/images/Jets/18FJ-4Fury/18FJ-4Fury1.jpg",
+  "type":"Jet"
+}
+
+  ]

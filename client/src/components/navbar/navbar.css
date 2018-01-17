@@ -1,0 +1,257 @@
+.navbar-default .navbar-nav>li>a {
+    color: #E1E0DE;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+
+/* Change default Bootstrap hover styles */
+
+a:active {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #E1E0DE;
+    background-color: #59699C;
+}
+
+ul {
+    list-style: none; 
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: #E1E0DE;
+    background-color: #59699C;
+}
+
+.btn-default:hover {
+    color: #333;
+    background-color: #59699C;
+    border-color: #adadad;
+}
+
+.navbar-default .navbar-brand:hover {
+    background-color: white;
+}
+
+/* Nav Styles*/
+
+.container {
+    width: 100%;
+    padding: 0;
+
+}
+
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+}
+
+.navbar-default {
+    z-index:1;
+    background-color: #232F3E;
+    border-color: transparent;
+}
+
+a.navbar-brand {
+padding-left:0px;
+padding-top:10px;
+}
+
+.navbar-brand {
+    z-index: 2;
+    margin-left: 0px;
+    width: 215px;
+    background-color: white;
+    max-width: 260px;
+    position: absolute;
+    
+}
+
+.navbar-brand>img {
+    padding-bottom:11px;
+    margin: 0px;
+    height: auto;
+    padding-left: 15%;
+    width: 100%;
+    background-color: white;
+    float: left;
+}
+
+.navbar-right~.navbar-right {
+    margin-right: -20%;
+}
+
+.navbar-nav {
+    width: 45%;
+}
+
+.spacer>li  {
+    border-right: 1px solid #5F626B;
+}
+
+#navbar1 {
+    background-color: #232F3E;
+    color: #E1E0DE;
+    padding-top:5px;
+    padding-left: 0px;
+    padding-right: 5%;
+}
+
+.navbar-header {
+    background-color: #232F3E;
+    color: #E1E0DE;
+    width: 15%;
+    padding-left: 0;
+    margin-left: 0px;
+}
+
+.form-control {
+    margin-left: 15%;
+    border-color: white;
+}
+
+.btnspaces {
+    width: 75px;
+    background-color: #59699C !important;
+    border: 0px;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btnIcon {
+    width: 45%;
+}
+.formLogin1 {
+    margin-top:15px !important;
+    margin-left:5%;
+    border-right:0px !important;
+    border-right-color: transparent !important;
+}
+
+.searchForm {
+border-top-right-radius: 0px;
+border-bottom-right-radius: 0px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px){
+    .navbar-brand {
+        margin-left: 10px;
+        margin-top:10px;
+        padding:0px;
+        width: 17%;
+        height:0%;
+        background-color: white;
+        max-width: 260px;
+    }
+    .navbar-brand>img {
+        margin: 0px;
+        height: auto;
+        width: 100%;
+        background-color: white;
+        float: left;
+    }
+
+    a.navbar-brand {
+        padding-left:0px;
+        }
+    
+    .navbar-header {
+    float:right;
+    padding-right:5%;
+    }
+
+    .spacer>li  {
+        border-bottom: 1px solid #5F626B;
+        border-right: 0px solid #5F626B;
+        overflow:hidden; 
+        width:100%;
+        text-align: center;
+    }
+
+    .navbar-nav {   
+        width: 100%;
+        margin:0px;
+        margin-bottom:2%;
+        padding:2%;
+    }
+
+    .navbar-right~.navbar-right {
+        margin-right:0px;
+    }
+
+    .navbar-form {
+        padding:0px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: -0px;
+        border-top: 1px solid transparent;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: color;
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    .navbar-collapse.in {
+        overflow-y:hidden; 
+    }
+
+    #navbar1 {
+        background-color: #232F3E;
+        color: #E1E0DE;
+        margin:0px;
+        padding-top: 5px;
+        padding:0px;
+        width:100%;
+    }
+
+    .form-control {
+        margin-left:0px;
+    }
+    .btn-default {
+        display:none;
+    }
+
+    .searchForm {
+        display:none;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+
+    .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+
+    .icon-bar {
+        margin-top:2px;
+        margin-bottom:2px;
+    }
+
+    .navbar-form {
+        -webkit-box-shadow: inset 0 0px 0 rgba(255,255,255,.1), 0 0px 0 rgba(255,255,255,.1);
+ 
+    }
+
+    button.formLogin {
+        padding:2%;
+        background-color: transparent;
+    }
+
+    .navbar-right {
+        text-align: center;
+    }
+    .formLogin1 {
+        margin-left:0px;
+        border-bottom-style:  solid;
+        border-bottom-style:1px;
+    }
+    .formLogin1 a:hover {
+        background-color:#5F626B;
+    }
+}
+
